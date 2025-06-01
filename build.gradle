@@ -19,7 +19,9 @@ project.ext {
 }
 
 group = 'net.minecraftforge.gradle'
-version = "${project.ext.GIT_INFO.tag}.${project.ext.GIT_INFO.offset}"
+//version = "${project.ext.GIT_INFO.tag}.${project.ext.GIT_INFO.offset}"
+//TODO fix stub version as 1.2.4 forge now for dependency management purposes
+version = '1.2.4'
 archivesBaseName = 'ForgeGradle'
 targetCompatibility = '1.6'
 sourceCompatibility = '1.6'

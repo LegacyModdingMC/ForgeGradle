@@ -544,6 +544,6 @@ public abstract class DevBasePlugin extends BasePlugin<DevExtension>
 
     protected boolean hasInstaller()
     {
-        return true;
+        return false;
     }
 }
